@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+.btn-section {
+    border: 1px solid #004e64;
+    border-radius: 25px;
+    color: #004e64;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Caveat;
+
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-section span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-section span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-section:hover span {
+    padding-right: 25px;
+
+}
+
+.btn-section:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.carousel-img {
+    width: 100% !important;
+    height: 600px !important;
+}
+

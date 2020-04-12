@@ -1,0 +1,141 @@
+### Create Product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "KREeeeVET",
+  "width": 100,
+  "description": "wooow",
+  "type": "jgkhk",
+  "picUrl": "pic1",
+  "price": 300
+}
+
+### Update Product
+
+PATCH http://localhost:8080/api/products/SANJA
+Content-Type: application/json
+
+{
+  "name": "SATORN",
+  "width": 500,
+  "description": "Testce",
+  "type": "komoda",
+  "picUrl": "ajhgkhv",
+  "price": 400
+}
+
+### Delete Product
+
+DELETE http://localhost:8080/api/products/NOVOHUH
+
+###  Show All Products
+GET http://localhost:8080/api/products
+
+###   Show certain product
+
+GET http://localhost:8080/api/products/NAJNOVO
+###
+
+----Room Tests-----
+
+### Get all rooms
+
+GET http://localhost:8080/api/rooms
+
+### Get room
+
+GET http://localhost:8080/api/rooms/Room1
+
+### Create new room
+
+POST http://localhost:8080/api/rooms
+Content-Type: application/json
+
+{
+  "name": "PLS",
+  "description": "mjaauuuu",
+  "products": [
+    "Sara-2L"
+  ]
+}
+
+### Update room
+PUT  http://localhost:8080/api/rooms/TEST3
+Content-Type: application/json
+
+{
+  "name": "SPALNATRI",
+  "description": "blah",
+  "products": [
+    "Sanja"
+  ]
+}
+
+### Delete room
+DELETE http://localhost:8080/api/rooms/KUKARACA
+
+###
+
+----Forum Tests-----
+###  Show Forum
+
+GET http://localhost:8080/api/forum
+
+
+### Create new forum
+
+POST http://localhost:8080/api/forum
+Content-Type: application/json
+
+{
+  "name": "Post1",
+  "comment": "My comment",
+  "rating": 4
+}
+
+### Delete Forum
+
+DELETE http://localhost:8080/api/forum/Post1
+
+###
+-----Decoration Tests-----
+
+### Create Decoration
+POST http://localhost:8080/api/decorations
+Content-Type: application/json
+
+{
+  "name": "Pernica",
+  "color": "black",
+  "type": "sofa",
+  "description": "opis",
+  "picUrl": "pic1",
+  "price": 300
+}
+
+### Update Decoration
+
+PATCH http://localhost:8080/api/decorations/Kebe
+Content-Type: application/json
+
+{
+  "name": "Kebe",
+  "color": "white",
+  "type": "sofa",
+  "description": "Testce",
+  "picUrl": "ajhgkhv",
+  "price": 400
+}
+
+### Delete Decoration
+
+DELETE http://localhost:8080/api/decorations/Kebe
+
+###  Show All Decorations
+GET http://localhost:8080/api/decorations
+
+###   Show certain decoration
+
+GET http://localhost:8080/api/decorations/Pernica
+###

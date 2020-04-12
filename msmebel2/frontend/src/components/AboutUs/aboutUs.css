@@ -1,0 +1,15 @@
+.smallPics{
+    size: 200px;
+}
+.fa-user-circle:before{
+    font-size: 150px;
+}
+.fa-shopping-cart:before{
+    font-size: 150px;
+}
+.fa-check:before{
+    font-size: 150px;
+}
+.fa-automobile:before{
+    font-size: 150px;
+}
