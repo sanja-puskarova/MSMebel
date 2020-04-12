@@ -28,7 +28,7 @@ To connect to the database, you need to create database with:
 <b>user: postgres,</b><br/>
 <b>password: admin,</b><br/>
 <br/>
-You need to execute all queries one by one located in <b>msmebel2/SQL</b> to populate the database.
+You need to execute all queries one by one in order starting from the first one(msmebel_public_decorations.sql) located in <b>msmebel2/SQL</b> to populate the database.
 <br/><br/>
 For starting the back-end app, you need to build the backend module and run the main class <b>‘com.example.msmebel2.Msmebel2Application’.</b>
 
